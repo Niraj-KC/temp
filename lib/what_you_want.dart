@@ -16,41 +16,43 @@ class yourWidget extends StatelessWidget {
             showModalBottomSheet(
                 backgroundColor: Colors.black45,
                 context: (context), builder: (context){
-              return Column(
-                children: [
-                  ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),
-                  ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),
-                  ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),
-                  ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),
-                  ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),ListTile(
-                    title: Text("Harsh_rajput210"),
-                    // subtitle: Text(""),
-                  ),
-                ],
+              return SingleChildScrollView(
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),
+                    ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),
+                    ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),
+                    ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),
+                    ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),ListTile(
+                      title: Text("Harsh_rajput210"),
+                      // subtitle: Text(""),
+                    ),
+                  ],
+                ),
               ) ;
 
             }) ;
